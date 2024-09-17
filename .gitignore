@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test coverage files
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Build output
+dist/
+build/
+out/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore files from specific platforms
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Optional: Ignore git specific files
+.git/

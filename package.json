@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Fullstack CRUD (Backend)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nizomiddin-Valijanov/Fullstack-CRUD-Node.js.git"
+  },
+  "keywords": [
+    "CRUD",
+    "node.js",
+    "express.js"
+  ],
+  "author": "Nizomiddin Valijanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nizomiddin-Valijanov/Fullstack-CRUD-Node.js/issues"
+  },
+  "homepage": "https://github.com/Nizomiddin-Valijanov/Fullstack-CRUD-Node.js#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5"
+  }
+}
